@@ -1,0 +1,19 @@
+{
+    "name": "paulcervov/php-decorator-pattern",
+    "require": {
+        "monolog/monolog": "^2.2",
+        "symfony/cache": "^5.2",
+        "symfony/http-client": "^5.2"
+    },
+    "authors": [
+        {
+            "name": "Paul Cervov",
+            "email": "paulcervov@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+}
